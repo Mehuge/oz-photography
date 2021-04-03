@@ -1,0 +1,24 @@
+{
+  "website": {
+    "title": "Oz Photography",
+    "headline": "Capturing Life",
+    "subhead": "Moments in Time",
+    "about": {
+      "title": "Hi, I am Oz",
+      "subtitle": "This is my photography",
+      "text": [
+        "I am just an amateur photographer who takes pictures for fun.",
+        "I have always liked taking pictures, and have always had a camera, from cheap disposable cameras,",
+        "numerous compact cameras, an old SLR with a couple of lenses and up until recently a mirrorless.",
+        "Earlier this year, just before lockdown, I treated myself to a DSLR camera, the Nikon D7500,",
+        "which I am liking a lot, though I am very much still learning to use it.",
+        "This website is simply a place to show off some of my photographs."
+      ]
+    }
+  },
+  "galleries": [
+    { "title": "See My Photographs",
+      "albums": [ "loki", "lola", "stitch", "animals", "buildings", "nature", "cars", "landscapes", "objects", "structures" ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "check": "cmd /c tools\\setenv.cmd check",
+    "dev": "next dev",
+    "build": "next build",
+    "instagram": "npm run check && node tools/fetchInstagram.js",
+    "production": "next build && next start",
+    "start": "next start",
+    "export": "next export",
+    "publish": "npm run check && node tools/rsync.js out/. /var/www-sites/ozphotography/.",
+    "deploy": "npm run instagram && npm run build && npm run export && npm run publish"
+  },
+  "dependencies": {
+    "next": "^10.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "instagram-web-api": "git+https://github.com/jlobos/instagram-web-api.git",
+    "rsync": "^0.6.1"
+  }
+}
