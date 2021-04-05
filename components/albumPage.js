@@ -36,6 +36,18 @@ function TiledAlbum({ folder, images }) {
             height: 100%;
             overflow: hidden;
           }
+          #splide-gallery .splide__track,
+          #splide-gallery .splide__list {
+            height: inherit;
+          }
+          #splide-gallery .splide__slide {
+            position: relative;
+            height: inherit;
+          }
+          #splide-gallery .splide__slide img {
+            position: absolute;
+            top: 0; bottom: 0; margin: auto;
+          }
         `}</style>
       </Head>
       <div className="tiledAlbum">
